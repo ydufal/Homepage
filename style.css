@@ -1,0 +1,86 @@
+/* Définition des polices personnalisées */
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Debut design du header*/	
+.header{
+    width: 100% ;
+    height: 450px ;
+    background-color: rgb(62,57,107);
+    position: relative;
+}
+.header_navbar{
+     width: 100%;
+     height: 80px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center ;
+}
+.container{
+    max-width: 1800px ;
+    width: 90% ;
+    margin: auto;
+    position: relative;
+}
+.header_navbar_menu_link{
+    margin-left: 40px ;
+    color :#FFFFFF;
+    text-decoration: none ;
+}
+.header_navbar_logo_title{
+    color: #FFFFFF ;
+    font-size: 28px ;
+    font-family: 'Nunito', sans-serif;
+}
+.header_texture{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: url('images/photo_principal.jpg') center no-repeat;
+    background-size: cover ;
+    opacity: 1 ;
+}
+.header_slogan{
+    text-align: center ;
+    margin-top: 60px;
+}
+.header_slogan_title{
+    color: #FFF ;
+    font-size: 50px;
+}
+.header_slogan_buton{
+    color :#FFF;
+    text-decoration: none ;
+    font-size: 18px ;
+    padding: 15px  20px 15px 20px;
+    background-color: orange ;
+    border-radius: 5px ;
+}
+@media all and (max-device-width : 480px)
+{
+
+}
+}
+/*Fin design du header*/    
